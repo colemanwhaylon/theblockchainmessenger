@@ -2,7 +2,10 @@
 
 pragma solidity 0.8.30;
 
-contract MyContract {
-    string public ourString = "Hello World!";
+contract ExampleBoolean {
+    bool public myBool;
+    function setMyBool(bool _myBool) public {
+        myBool = _myBool;
+    }
 }
 
